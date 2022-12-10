@@ -7,11 +7,6 @@ import (
 	"go.uber.org/zap"
 )
 
-// var contextTimeOut context.Context
-//var cancel context.CancelFunc
-
-// IsAmt will Check the struct and return true or false
-
 func main() {
 	zapLog.InitLogger()
 	initDatabase.InitDB()
@@ -23,5 +18,4 @@ func main() {
 		}
 	}(zapLog.Logger)
 	zapLog.SugarLogger.Info("write a err")
-
 }

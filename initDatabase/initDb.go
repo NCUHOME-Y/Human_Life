@@ -17,7 +17,7 @@ func InitDB() {
 	if err != nil {
 		zapLog.SugarLogger.Info(err)
 	}
-	err = DB.AutoMigrate(&define.UserLogin{}, &define.Token{}, &define.UserMessage{}, &define.BulletinBoard{})
+	err = DB.AutoMigrate(&define.UserLogin{}, &define.Token{}, &define.TimeRemind{}, &define.DutyOrder{})
 	if err != nil {
 		zapLog.SugarLogger.Fatal(err)
 	}
