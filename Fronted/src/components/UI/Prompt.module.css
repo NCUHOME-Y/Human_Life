@@ -1,0 +1,35 @@
+.div{
+   background-color: #FFD975;
+   height: 200px;
+}
+.my{
+   /* background-color: red; */
+   position: relative;
+   top: 20px;
+   height: 50px;
+   border-radius: 90px;
+   font-size: 15px;
+   padding-left: 20px;
+   border: none;
+   outline: none;
+}
+.other{
+   /* background-color: pink; */
+   position: relative;
+   top: 35px;
+   height: 50px;
+   border-radius: 90px;
+   font-size: 15px;
+   padding-left: 20px;
+   border: none;
+   outline: none;
+}
+.btn{
+   position: absolute;
+   top: 160px;
+   right: 120px;
+   height: 30px;
+   border: none;
+   outline: none;
+   background-color: #FFD975;
+}

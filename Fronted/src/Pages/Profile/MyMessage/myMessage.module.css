@@ -1,0 +1,78 @@
+.id {
+    width: 3.15rem;
+    height: 0.7rem;
+    margin: 0 auto;
+    margin-top: 0.68rem;
+    background-color: #FBD46F;
+    display: flex;
+    border-radius: 12px;
+}
+
+.id img {
+    width: 0.46rem;
+    height: 0.46rem;
+    border-radius: 90px;
+    margin-top: 0.12rem;
+    margin-left: 0.17rem;
+}
+
+.id div {
+    margin-top: 0.13rem;
+    margin-left: 0.38rem;
+    font-family: 'Patrick Hand SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+}
+
+.UserName,
+.resetPwd {
+    background-color: #bfa;
+    height: 0.54rem;
+    width: 3.15rem;
+    margin-left: 0.39rem;
+    margin-top: 0.43rem;
+    margin-right: 0.39rem;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    background: #FBD46F;
+    border-radius: 12px;
+}
+
+span {
+    position: relative;
+    top: 0.13rem;
+    left: 0.13rem;
+}
+
+.exit {
+    position: relative;
+    width: 220px;
+    height: 54px;
+    top: 3.86rem;
+    left: 0.86rem;
+    background: rgba(169, 142, 142, 0.46);
+    border-radius: 12px;
+}
+
+.exit button {
+    position: absolute;
+    left: 0.6rem;
+    top: 0.001rem;
+    width: 100px;
+    height: 100%;
+    font-family: 'Patrick Hand SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #EB1B1B;
+    border-style: none;
+    background-color: transparent;
+    /* background: rgba(169, 142, 142, 0.46); */
+}

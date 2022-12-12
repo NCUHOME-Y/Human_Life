@@ -4,6 +4,15 @@ import (
 	"reflect"
 )
 
+type Board struct {
+	RoomID  string `json:"RoomID"`
+	Message string `json:"Message" ,gorm:"varchar(200);not null"`
+}
+
+func (b Board) IsAmt() bool {
+	return reflect.DeepEqual(b, Board{})
+}
+
 // UserLogin 登录模块 待修改
 type UserLogin struct {
 	UserName uint   `json:"UserName"`
@@ -16,6 +25,10 @@ type Token struct {
 	Id    uint   `gorm:"primary_key;AUTO_INCREMENT"`
 	Token string `gorm:"type:varchar(1000);not null"`
 	UID   uint
+}
+
+func (t Token) IsAmt() bool {
+	return reflect.DeepEqual(t, Token{})
 }
 
 // TimeRemind 公告版面
@@ -55,8 +68,8 @@ type GetDuty struct {
 }
 
 type AddPartner struct {
-	UserName      string `json:"UserName"`
-	PartnerNumber uint   `json:"partner_number"`
+	UserName      uint `json:"UserName"`
+	PartnerNumber uint `json:"partner_number"`
 }
 
 type loginConfig interface {

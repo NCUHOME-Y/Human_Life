@@ -1,0 +1,82 @@
+.body {
+    height: 8.05rem;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+.top {
+    display: flex;
+    margin-top: 0.43rem;
+    margin-left: 0.39rem;
+    margin-right: 0.85rem;
+    /* background-color: pink; */
+}
+
+.top img {
+    width: 72px;
+    height: 68px;
+    border-radius: 90px;
+}
+
+.top div {
+    /* background-color: #fff; */
+    position: relative;
+    top: 8px;
+    left: 19px;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.myMessage,
+.clean,
+.exist,
+.myBedfriend,
+.setTimemessage,
+.setting {
+    height: 0.54rem;
+    width: 3.15rem;
+    margin-left: 0.39rem;
+    margin-top: 0.26rem;
+    margin-right: 0.39rem;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    background: #FBD46F;
+    border-radius: 12px;
+}
+
+.father span {
+    position: relative;
+    top: 0.13rem;
+    left: 0.37rem;
+}
+
+
+
+.exist select {
+    float: right;
+    margin-right: 0.21rem;
+    margin-top: 0.11rem;
+    width: 1.2rem;
+    height: 0.33rem;
+    background: #FEEAB7;
+    border-radius: 0.193655rem;
+    outline: none;
+    border: 0;
+}
+
+select{
+    font-size: 20px;
+    font-family:'PingFang SC';
+    
+}
+
+option{
+    text-align: center;
+}

@@ -1,0 +1,30 @@
+:global(.adm-button-block){
+    width: 130px;
+    height: 100%;
+    position: relative;
+    bottom: 28px;
+    left: 150px;
+    background-color: #FBD46F;
+    border-radius: 12px;
+    border: none;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    margin-left: 34px;
+    font-weight: 700;
+}
+
+:global(.adm-modal-body:not(.adm-modal-with-image)){
+    background-color: #FBD46F;
+}
+
+/* :global(.adm-modal-footer .adm-modal-button:not(.adm)){
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 1px;
+} */
+:global(.adm-modal-footer .adm-modal-button){
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 1px;
+    position: relative;
+}
